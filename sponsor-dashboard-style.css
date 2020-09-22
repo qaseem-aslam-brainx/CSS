@@ -1,7 +1,7 @@
 #fair-heading{
     font-size: 25px;
     font-family: Avenir;
-    display: inline-block;
+    display: flex;
 }
 ul.fair-tabs{
     list-style-type: none;
@@ -13,10 +13,9 @@ ul.fair-tabs li {
 }
 
 ul.fair-tabs li a{
-    display: block;
+    display: flex;
     color: black;
-    text-align: center;
-    padding: 14px 15px 14px 15px;
+    padding: 10px 10px 10px 10px;
     font-weight: bold;
     text-decoration: none;
     font-family: Avenir;
@@ -47,9 +46,10 @@ ul.fair-tabs li a:hover{
     background: #ffffff;
     box-shadow:0px 6px 10px #6596FF26;
     border-radius: 12px;
-    width: 1066px;
+    width: 100%;
+    flex-flow: column;
     height: 500px;
-    display: inline-block;
+    display: flex;
 }
 #sponsor-heading{
     text-align: left;
@@ -69,7 +69,6 @@ ul.fair-tabs li a:hover{
     background: #79D733;
     text-decoration: none;
     border-radius: 10px;
-    margin-left: 70%;
 }
 table.sponsor-list-table {
     width: 100%;
@@ -120,11 +119,8 @@ table.sponsor-list-table td{
 
 .column1 {
     display: flex;
-    width: 97%;
-    
-    align-items: center;
+    width: 100%;
     justify-content: space-between;
-    
 }
 
 /* Clear floats after the columns */
