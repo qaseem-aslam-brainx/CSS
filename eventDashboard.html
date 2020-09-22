@@ -168,11 +168,11 @@
         }
 
         input:checked + .slider {
-            background-color: #2196F3;
+            background-color: #79D733
         }
 
         input:focus + .slider {
-            box-shadow: 0 0 1px #2196F3;
+            box-shadow: 0 0 1px #79D733;
         }
 
         input:checked + .slider:before {
@@ -180,15 +180,51 @@
             -ms-transform: translateX(26px);
             transform: translateX(26px);
         }
+        #logout{
+            position: absolute;
+            top: 55px;
+            right: 0px;
+            width: 234px;
+            text-align: left;
+            display: none;
+            height: 71px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px #6596FF26;
+            border: 0.5px solid #AFAFAF;
+            border-radius: 4px;
+        }
+        #sign-out{
+            text-align: left;
+            font-family: Avenir;
+            font-size: 14px;
+            letter-spacing: 0px;
+            color: #C4183C;
+            float: left;
+            padding: 15px 0px 0px 0px;
+            text-transform: capitalize;
+        }
     </style>
+    <script>
+        function showLogout(){
+            if(document.getElementById("logout").style.display == 'block')
+                document.getElementById("logout").style.display = 'none';
+            else
+                document.getElementById("logout").style.display = 'block';
+        }
+    </script>
     <head>
         <title>Event Dashboard</title>
     </head>
     <body>
         <nav>
-            <div style="position: absolute;right: 20px; top: 12px;">
+            <div style="position: absolute;right: 350px; top: 12px;">
                 <div class="circleoutline">
-                    <input class="circlebutton" type="button" value="J">
+                    <button onclick="showLogout()" class="circlebutton" type="button">J</button>
+                    <div id="logout" onclick="window.location.href = 'login.html';">
+                        <i style="color: #C4183C;float: left;padding: 13px 0px 0px 0px;margin-left: 10px;" class="fas fa-sign-out-alt"></i>
+                        <span id="sign-out">Sign Out</span><br>
+                        <p style="font-size: 14px; margin-left: 13px;">john.doe@brainxtech.com</p>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -198,7 +234,7 @@
         </div>
         <div class="container">
             <div class="column">
-                <h2 style="display: inline-block;">Virtual Fair</h2>
+                <h2 style="display: inline-block;font-family: Avenir;font-size: 20px;font-weight: 900;">Virtual Fair</h2>
                 <label class="switch" style="float: right;">
                     <input type="checkbox" checked>
                     <span class="slider round"></span>
@@ -212,7 +248,7 @@
             </div>
               
             <div class="column">
-                <h2 style="display: inline-block;">Virtual Fair</h2>
+                <h2 style="display: inline-block;font-family: Avenir;font-size: 20px;font-weight: 900;">Virtual Fair</h2>
                 <label class="switch" style="float: right;">
                     <input type="checkbox" checked>
                     <span class="slider round"></span>
@@ -226,7 +262,7 @@
             </div>
             
             <div class="column">
-                <h2 style="display: inline-block;">Virtual Fair</h2>
+                <h2 style="display: inline-block;font-family: Avenir;font-size: 20px;font-weight: 900;">Virtual Fair</h2>
                 <label class="switch" style="float: right;">
                     <input type="checkbox" checked>
                     <span class="slider round"></span>
