@@ -38,10 +38,7 @@ nav{
     font-size: 14px;
     margin-left: 13px;
 }
-.sponsor{
-    border-bottom: 3px solid blue;
-    color: blue !important;
-}
+
 .icon-logout{
     color: #c4183c;
     padding-top: 13px;

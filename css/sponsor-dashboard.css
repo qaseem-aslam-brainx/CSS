@@ -4,15 +4,15 @@
     --btn-background: #79d733;
 }
   
-.fair-heading{
+.heading{
     font-size: 25px;
     font-family: Avenir;
     display: flex;
 }
-ul.fair-tabs{
+ul.tabs{
     list-style-type: none;
 }
-ul.fair-tabs li {
+ul.tabs li {
     float: left;
     font-size: 16px;
     font-family: Avenir;
@@ -21,7 +21,7 @@ ul.fair-tabs li {
     border-bottom: 3px solid var(--active-tab-color);
     color: var(--active-tab-color) !important;
 }
-ul.fair-tabs li a{
+ul.tabs li a{
     display: flex;
     color: var(--text-color);
     padding: 10px;
@@ -29,7 +29,7 @@ ul.fair-tabs li a{
     text-decoration: none;
     font-family: Avenir;
 }
-ul.fair-tabs li a:hover{
+ul.tabs li a:hover{
     border-bottom: 3px solid var(--active-tab-color);
     color: var(--active-tab-color);
 }
