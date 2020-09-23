@@ -4,8 +4,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="font-awsome/css/all.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="sponsor-dashboard-style.css">
+        <link rel="stylesheet" href="css/nav-bar.css">
+        <link rel="stylesheet" href="css/sponsor-dashboard.css">
         
         <script>
             function showLogout(){
@@ -18,37 +18,37 @@
     </head>
     <body>
         <nav>
-            <div class="circleoutline">
-                <button onclick="showLogout()" class="circlebutton" type="button">J</button>
+            <div class="circle-outline">
+                <button onclick="showLogout()" class="circle-button" type="button">J</button>
                 <div id="logout" onclick="window.location.href = 'login.html';">
-                    <i class="fas fa-sign-out-alt icon-style"></i>
+                    <i class="fas fa-sign-out-alt icon-logout"></i>
                     <span id="sign-out">Sign Out</span><br>
-                    <p class="email-style">john.doe@brainxtech.com</p>
+                    <p class="email">john.doe@brainxtech.com</p>
                 </div>
             </div>
 
         </nav>
         <div class="container">
             <div >
-                <h1 id="fair-heading">Virtual Fair</h1>
+                <h1 class="fair-heading">Virtual Fair</h1>
             </div>
             
             <div class="column1">
                 <ul class="fair-tabs">
                     <li><a href="#">Event Detail</a></li>
                     <li><a href="#">Vendor</a></li>
-                    <li><a href="#" class="sponsor-style">Sponser</a></li>
+                    <li><a href="#" class="active-tab">Sponser</a></li>
                     <li><a href="#">Ateendees</a></li>
                 </ul>
                 <a href="#" onclick="window.location.href = 'eventDashboard.html';" class="back-btn"><i class="fa fa-arrow-left"></i>Back</a>
             </div>
             
     
-            <div id="box">
+            <div class="box">
                 
                 <div class="column">
-                    <span id="sponsor-heading">Sponsors</span>
-                    <a href="#" id="sponsor-button">Add Sponsor</a>
+                    <span class="heading">Sponsors</span>
+                    <a href="#" class="button">Add Sponsor</a>
                 </div>
                 
                 <div>
@@ -66,7 +66,7 @@
                             <td><img style="margin-top: 5px;" src="logo.png" ></td>
                             <td>Virtual Fair</td>
                             <td>www.virtualfair.com</td>
-                            <td><span class="status-active">Active</span></td>
+                            <td><span class="status active">Active</span></td>
                             <td><a href="#" class="fas fa-ellipsis-h options"></td>
                         </tr>
                         <tr>
@@ -74,7 +74,7 @@
                             <td><img style="margin-top: 5px;" src="logo.png"></td>
                             <td>Virtual Fair</td>
                             <td>www.virtualfair.com</td>
-                            <td><span class="status-deactive">Deactive</span></td>
+                            <td><span class="status deactive">Deactive</span></td>
                             <td><a href="#" class="fas fa-ellipsis-h options"></td>
                         </tr>
                         <tr>
@@ -82,7 +82,7 @@
                             <td><img style="margin-top: 5px;" src="logo.png"></td>
                             <td>Virtual Fair</td>
                             <td>www.virtualfair.com</td>
-                            <td><span class="status-active">Active</span></td>
+                            <td><span class="status active">Active</span></td>
                             <td><a href="#" class="fas fa-ellipsis-h options"></td>
                         </tr>
                         <tr>
@@ -90,7 +90,7 @@
                             <td><img style="margin-top: 5px;" src="logo.png"></td>
                             <td>Virtual Fair</td>
                             <td>www.virtualfair.com</td>
-                            <td><span class="status-deactive">Deactive</span></td>
+                            <td><span class="status deactive">Deactive</span></td>
                             <td><a href="#" class="fas fa-ellipsis-h options"></td>
                         </tr>
                         <tr>
@@ -98,7 +98,7 @@
                             <td><img style="margin-top: 5px;" src="logo.png"></td>
                             <td>Virtual Fair</td>
                             <td>www.virtualfair.com</td>
-                            <td><span class="status-active">Active</span></td>
+                            <td><span class="status active">Active</span></td>
                             <td><a href="#" class="fas fa-ellipsis-h options"></td>
                         </tr>
                     </table>

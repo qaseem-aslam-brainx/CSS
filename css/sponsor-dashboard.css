@@ -1,4 +1,4 @@
-#fair-heading{
+.fair-heading{
     font-size: 25px;
     font-family: Avenir;
     display: flex;
@@ -11,11 +11,14 @@ ul.fair-tabs li {
     font-size: 16px;
     font-family: Avenir;
 }
-
+.active-tab{
+    border-bottom: 3px solid blue;
+    color: blue !important;
+}
 ul.fair-tabs li a{
     display: flex;
     color: black;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     font-weight: bold;
     text-decoration: none;
     font-family: Avenir;
@@ -27,22 +30,13 @@ ul.fair-tabs li a:hover{
 .container{
     display: flex;
     flex-flow: wrap;
-    padding: 0% 20% 0% 20%;
+    padding: 0% 20%;
     margin-top: 30px;
+    min-width: 1066px;
 }
-.icon-style{
-    color: #C4183C;
-    padding: 13px 0px 0px 0px;
-}
-.email-style{
-    font-size: 14px;
-    margin-left: 13px;
-}
-.sponsor-style{
-    border-bottom: 3px solid blue;
-    color: blue !important;
-}
-#box{
+
+
+.box{
     background: #ffffff;
     box-shadow:0px 6px 10px #6596FF26;
     border-radius: 12px;
@@ -51,13 +45,13 @@ ul.fair-tabs li a:hover{
     height: 500px;
     display: flex;
 }
-#sponsor-heading{
+.heading{
     text-align: left;
     font: normal normal 900 25px Avenir;
     letter-spacing: 0px;
     color: #1B1B1B;
 }
-#sponsor-button{
+.button{
     width: 170px;
     color: white;
     border: 2px solid #79D733;
@@ -90,17 +84,16 @@ table.sponsor-list-table td{
     border-top: 1px solid rgb(195, 190, 190);
     border-collapse: collapse;
 }
-.status-active{
-    background: #79D733;
+.status{
     border-radius: 10px;
     text-align: center;
     padding: 5px 20px 5px 20px;
 }
-.status-deactive{
+.active{
+    background: #79D733;
+}
+.deactive{
     background: #BECAD6;
-    border-radius: 10px;
-    text-align: center;
-    padding: 5px 20px 5px 20px;
 }
 .options{
     border: 1px solid #9e9898;
@@ -140,26 +133,4 @@ table.sponsor-list-table td{
     padding: 10px 20px 10px 20px;
     letter-spacing: 0.8px;
     color: #000000;
-}
-#logout{
-    position: absolute;
-    top: 55px;
-    right: 0px;
-    width: 234px;
-    text-align: left;
-    display: none;
-    height: 71px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 10px #6596FF26;
-    border: 0.5px solid #AFAFAF;
-    border-radius: 4px;
-}
-#sign-out{
-    text-align: left;
-    font-family: Avenir;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #C4183C;
-    padding: 15px 0px 0px 0px;
-    text-transform: capitalize;
 }
