@@ -4,24 +4,24 @@
 
 body {
     margin: 0;
-    background: #FBFBFB;
+    background: #fbfbfb;
 }
 nav{
     height: 68px;
     width: 100%;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 4px #6596FF26;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px #6596ff26;
     padding: 12px 55px 12px 0px;
 }
 .circle-button{
     border-radius: 50%;
     height: 38px;
     width: 38px;
-    background: #79D733;
-    border: 0px solid #79D733;
+    background: #79d733;
+    border: 0px solid #79d733;
     font-size: 20px;
     border-radius: 50%;
-    box-shadow: 0px 0px 3px 2px #6596FF26;
+    box-shadow: 0px 0px 3px 2px #6596ff26;
 }
 
 .outer-border{
@@ -43,7 +43,7 @@ nav{
     color: blue !important;
 }
 .icon-logout{
-    color: #C4183C;
+    color: #c4183c;
     padding-top: 13px;
 }
 
@@ -55,9 +55,9 @@ nav{
     text-align: left;
     display: none;
     height: 71px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 10px #6596FF26;
-    border: 0.5px solid #AFAFAF;
+    background: #ffffff;
+    box-shadow: 0px 2px 10px #6596ff26;
+    border: 0.5px solid #afafaf;
     border-radius: 4px;
 }
 #sign-out{
@@ -65,7 +65,7 @@ nav{
     font-family: Avenir;
     font-size: 14px;
     letter-spacing: 0px;
-    color: #C4183C;
+    color: #c4183c;
     padding: 15px 0px 0px 0px;
     text-transform: capitalize;
 }

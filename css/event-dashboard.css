@@ -1,3 +1,6 @@
+:root {
+    --btn-background: #79d733;
+}
 .container{
     display: flex;
     flex-flow: wrap;
@@ -24,13 +27,13 @@
 #createEventBtn{
     width: 167px;
     height: 50px;
-    background: #79D733;
+    background: var(--btn-background);
     border-radius: 12px;
     font-size: 16px;
     font-family: Avenir;
     color: white;
     font-weight: bold;
-    border: 1px solid #79D733;
+    border: 1px solid var(--btn-background);
 }
 .slider.round {
     border-radius: 34px;
@@ -77,11 +80,11 @@
 }
 
 input:checked + .slider {
-    background-color: #79D733
+    background-color: var(--btn-background)
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px #79D733;
+    box-shadow: 0 0 1px var(--btn-background);
 }
 
 input:checked + .slider:before {
@@ -94,8 +97,8 @@ input:checked + .slider:before {
     width: 340px;
     height: 257px;
     padding: 15px;
-    background: #FFFFFF;
-    box-shadow: 0px 6px 10px #6596FF26;
+    background: #ffffff;
+    box-shadow: 0px 6px 10px #6596ff26;
     border: 1px solid #00000000;
     border-radius: 12px;
     margin: 20px;
@@ -130,15 +133,15 @@ input:checked + .slider:before {
     font-size: 18px;
     letter-spacing: 0px;
     font-family: Avenir;
-    color: #1B1B1B;
+    color: #1b1b1b;
     line-height: 5px;
     text-transform: uppercase;
 }
 .icon{
     width: 45px;
     height: 40px;
-    background: #FFFFFF;
-    border: 0.5px solid #BECAD6;
+    background: #ffffff;
+    border: 0.5px solid #becad6;
     border-radius: 8px;
     text-align: center;
     padding: 10px;
