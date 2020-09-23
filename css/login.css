@@ -1,0 +1,64 @@
+body{
+    background: #FBFBFB;
+}
+.container{
+    width: 400px;
+    height: 365px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px #6596FF26;
+    border: 1px solid #00000000;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 10%;
+    margin-left: 39%;
+}
+h1{
+    margin-left: 35px;
+    margin-top: 29px;
+    font-size: 40px;
+    font-family: Avenir;
+}
+label{
+    font-size: 18px;
+    font-family: Avenir;
+    letter-spacing: 0px;
+    color: #363035;
+    margin-left: 36px;
+    margin-top: 88px;
+}
+input{
+    margin: 10px 0px 10px 36px;
+    padding: 5px 0 5px 20px;
+    top: 336px;
+    width: 315px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 0.5px solid #AFAFAF;
+    border-radius: 2px;
+}
+.forgot-pass{
+    width: 100%;
+    text-align: center;
+}
+.forgot-pass a{
+    text-decoration: none;
+    font-family: Avenir;
+    color: #0E64BC;
+    font-size: 16px;
+}
+input[type="submit"]{
+    top: 505px;
+    left: 557px;
+    width: 325px;
+    height: 50px;
+    background: var(--unnamed-color-79d733) 0% 0% no-repeat padding-box;
+    background: #79D733 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 10px #6596FF26;
+    border-radius: 12px;
+    opacity: 1;
+    font-size: 16px;
+    font-family: Avenir;
+    color: white;
+    font-weight: bold; 
+}
