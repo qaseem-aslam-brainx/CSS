@@ -139,3 +139,7 @@ table.sponsor-list-table td{
     letter-spacing: 0.8px;
     color: var(--text-color);
 }
+.logo-img{
+    margin-top: 5px;
+}
+
