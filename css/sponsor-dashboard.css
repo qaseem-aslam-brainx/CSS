@@ -1,9 +1,3 @@
-:root {
-    --active-tab-color: blue;
-    --text-color: black;
-    --btn-background: #79d733;
-}
-  
 .heading{
     font-size: 25px;
     font-family: Avenir;
@@ -69,23 +63,23 @@ ul.tabs li a:hover{
     text-decoration: none;
     border-radius: 10px;
 }
-table.sponsor-list-table {
+table.list-main {
     width: 100%;
     margin-left: 0px;
     text-align: center;
     font-family: Avenir;
 }
-table.sponsor-list-table th{
+table.list-main th{
     background: rgb(238, 235, 235);
     padding: 15px;
     opacity: 0.9;
 }
-table.sponsor-list-table td {
+table.list-main td {
     font-family: Avenir;
 }
-table.sponsor-list-table, 
-table.sponsor-list-table th, 
-table.sponsor-list-table td{
+table.list-main, 
+table.list-main th, 
+table.list-main td{
     border-top: 1px solid rgb(195, 190, 190);
     border-collapse: collapse;
 }
@@ -94,10 +88,10 @@ table.sponsor-list-table td{
     text-align: center;
     padding: 5px 20px 5px 20px;
 }
-.active{
+.status.active{
     background: var(--btn-background);
 }
-.deactive{
+.status.deactive{
     background: #becad6;
 }
 .options{
@@ -142,4 +136,3 @@ table.sponsor-list-table td{
 .logo-img{
     margin-top: 5px;
 }
-
