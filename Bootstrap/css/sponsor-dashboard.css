@@ -1,0 +1,46 @@
+.heading {
+    font-size: 25px;
+    font-family: Avenir;
+    display: flex;
+}
+
+ul.tabs {
+    list-style-type: none;
+}
+
+ul.tabs li {
+    font-size: 16px;
+    font-family: Avenir;
+}
+
+.active-tab {
+    border-bottom: 3px solid var(--active-tab-color);
+    color: var(--active-tab-color) !important;
+}
+
+ul.tabs li a {
+    display: flex;
+    color: var(--text-color);
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Avenir;
+}
+
+ul.tabs li a:hover {
+    border-bottom: 3px solid var(--active-tab-color);
+    color: var(--active-tab-color);
+}
+
+.back-btn {
+    width: 121px;
+    height: 42px;
+    background: #e9ecef;
+    border-radius: 10px;
+    text-align: center;
+    font: normal normal 900 16px/22px Avenir;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 0.8px;
+    color: var(--text-color);
+}
