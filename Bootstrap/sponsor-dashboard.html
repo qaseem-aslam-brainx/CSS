@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/sponsor-dashboard.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir">
-    <link rel="stylesheet" href="font-awsome/css/all.css">
-    <title>Event Dashboard</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <title>Sponsor Dashboard</title>
 </head>
 
 <body>
@@ -27,18 +27,74 @@
             </div>
         </div>
     </nav>
-    <div class="container mt-5">
+    <div class="container mt-5 col-pixel-width-900">
         <div>
             <h1 class="heading">Virtual Fair</h1>
         </div>
-        <div class="row d-flex justify-content-between p-3">
-            <ul class="nav tabs">
+        <div class="row d-flex justify-content-between p-4">
+            <ul class="nav tabs ml-4">
                 <li><a href="#">Event Detail</a></li>
                 <li><a href="#">Vendor</a></li>
                 <li><a href="#" class="active-tab">Sponser</a></li>
                 <li><a href="#">Ateendees</a></li>
             </ul>
-            <a href="#" class="back-btn"><i class="fa fa-arrow-left p-2"></i>Back</a>
+            <button href="#" class="back-btn"><i class="fa fa-arrow-left"></i>Back</button>
+        </div>
+        <div class=" container box p-0">
+            <div class="row d-flex justify-content-between pl-5 pr-5 pt-4 pb-4">
+                <span class="heading mt-1">Sponsors</span>
+                <button href="#" class="button">Add Sponsor</button>
+            </div>
+            <table class="list-main" cellspacing="0">
+                <tr>
+                    <th>#</th>
+                    <th>Sponsor Logo</th>
+                    <th>Sponsor Name</th>
+                    <th>Sponsor Website</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img class="logo-img" src="logo.png"></td>
+                    <td>Virtual Fair</td>
+                    <td>www.virtualfair.com</td>
+                    <td><span class="status active">Active</span></td>
+                    <td><a href="#" class="fas fa-ellipsis-h options"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img class="logo-img" src="logo.png"></td>
+                    <td>Virtual Fair</td>
+                    <td>www.virtualfair.com</td>
+                    <td><span class="status deactive">Deactive</span></td>
+                    <td><a href="#" class="fas fa-ellipsis-h options"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img class="logo-img" src="logo.png"></td>
+                    <td>Virtual Fair</td>
+                    <td>www.virtualfair.com</td>
+                    <td><span class="status active">Active</span></td>
+                    <td><a href="#" class="fas fa-ellipsis-h options"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img class="logo-img" src="logo.png"></td>
+                    <td>Virtual Fair</td>
+                    <td>www.virtualfair.com</td>
+                    <td><span class="status deactive">Deactive</span></td>
+                    <td><a href="#" class="fas fa-ellipsis-h options"></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img class="logo-img" src="logo.png"></td>
+                    <td>Virtual Fair</td>
+                    <td>www.virtualfair.com</td>
+                    <td><span class="status active">Active</span></td>
+                    <td><a href="#" class="fas fa-ellipsis-h options"></td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
